@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleAppProject1.CommandHandler.Default.Command.Cd\ConsoleAppProject1.CommandHandler.Default.Command.Cd.csproj" />
+    <ProjectReference Include="..\ConsoleAppProject1.CommandHandler.Default.Command.Dir\ConsoleAppProject1.CommandHandler.Default.Command.Dir.csproj" />
+    <ProjectReference Include="..\ConsoleAppProject1.CommandHandler.Default.Command.Exit\ConsoleAppProject1.CommandHandler.Default.Command.Exit.csproj" />
+    <ProjectReference Include="..\ConsoleAppProject1.CommandHandler.Default.Command.Test\ConsoleAppProject1.CommandHandler.Default.Command.Test.csproj" />
+    <ProjectReference Include="..\ConsoleAppProject1.CommandHandler.Default\ConsoleAppProject1.CommandHandler.Default.csproj" />
+    <ProjectReference Include="..\ConsoleAppProject1.CommandHandler\ConsoleAppProject1.CommandHandler.csproj" />
+  </ItemGroup>
+
+</Project>
